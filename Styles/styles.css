@@ -72,12 +72,13 @@ h2 {
 }
 
 h3 {
-    margin:auto;
-    width: 50%;
-    text-align:center;
-    padding: 10px;
-    font-size: 24px;
-    font-weight: 100;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(122,128,125);
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'Lora';
+    margin: 10px;
 }
 
 h4 {
@@ -96,12 +97,19 @@ h4 {
 
 .spaced {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .centered {
     margin:auto;
     width: 50%;
+    text-align:center;
+    text-decoration: none;
+}
+
+.third {
+    margin:auto;
+    width: 33%;
     text-align:center;
     text-decoration: none;
 }
@@ -113,15 +121,15 @@ h4 {
 }
 
 .link-info {
-    color:black;
-    border-bottom : 4px solid #ffffff00;
+    color:rgb(122,128,125);
+    border-bottom: 2px solid rgba(122,128,125,0);;
     border-radius: 5px;
     text-decoration: none;
     transition: border-bottom 0.25s, font-size 0.25s;
 }
 
 .link-info:hover {
-    border-bottom : 4px solid #000000;
+    border-bottom: 2px solid rgb(19, 117, 55);
 }
 
 .banner{
@@ -147,17 +155,19 @@ h4 {
 .shadow-Box{
     box-shadow: 0 1px 5px rgba(0,0,0,0.25);
     padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .divider-Image{
-    height: 150px;
+    height: 250px;
 }
 
 .divider-line-long{
     width: 100%;
     margin-top: 25px;
     margin-bottom: 50px;
-    border-bottom: 2px solid rgb(122,128,125);;
+    border-bottom: 2px solid rgb(122,128,125);
 }
 
 .content{
@@ -166,4 +176,29 @@ h4 {
     padding: 20px;
     max-width: 750px;
     margin: auto;
+}
+
+.mapBox{
+    width: 85%;
+}
+
+.rsvp{
+    width: 85%;
+    margin: auto;
+}
+
+.icon-large{
+    width: 100px;
+}
+
+.icon{
+    width: 64px;
+}
+
+.icon-small{
+    width: 32px;
+}
+
+.registry-item{
+    width: 50%
 }
