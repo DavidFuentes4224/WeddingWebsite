@@ -22,7 +22,7 @@ ul{
 
 li {
     float:left;
-    width: 33%;
+    width: 20%;
     font-family: 'Lora', serif;
 }
 
@@ -62,12 +62,13 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(122,128,125);
+    letter-spacing: 10px;
     text-align: center;
-    border-bottom: 4px solid white;
-    margin:auto;
-    width:250px;
-    padding: 10px;
+    font-family: 'Lora';
+    margin: 10px;
 }
 
 h3 {
@@ -91,6 +92,11 @@ h4 {
 
 .important {
     font-weight: 700;
+}
+
+.spaced {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .centered {
@@ -136,8 +142,11 @@ h4 {
 
 .main-Image{
     width: 100%;
-    padding: 10px;
+}
+
+.shadow-Box{
     box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+    padding: 10px;
 }
 
 .divider-Image{
