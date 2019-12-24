@@ -1,0 +1,79 @@
+<html>
+    <header>
+        <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+        <title>Fuentes Wedding</title>
+        <style>
+            /* Set the size of the div element that contains the map */
+            #map {
+                height: 400px;  /* The height is 400 pixels */
+                width: 100%;  /* The width is the width of the web page */
+                filter:grayscale();
+                margin-top: 20px;
+            }
+        </style>
+    </header>
+    <body>
+        <div class="main-page">
+            <div class="banner index">
+                <h1 class="important">DAVID FUENTES</h1>
+                <h4>AND</h4>
+                <H1 class="important">KELLY KLEM</H1>
+            </div>
+
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="/index.html">Details</a></li>
+                    <li><a href="/src/directions.html">Directions</a></li>
+                    <li><a href="/src/photos.html">Photos</a></li>
+                    <li><a href="/src/registry.html">Registry</a></li>
+                    <li><a href="/src/rsvp.html">RSVP</a></li>
+                </ul>
+            </div>
+            
+            <div class="content">
+                <div class="shadow-Box">
+                    <h3> You're invited to our wedding on</h3>
+                    <h3>September 19, 2020</h3>
+                    <h3>3C's Farm</h3>
+        
+                    <h4>6222 Mt Baker Hwy,</h4>
+                    <h4>Deming, WA, 98244</h4>
+                    <div class="centered"><a class="link-info" href="http://3csfarms.com/contact/">Click for more info!</a></div> 
+                </div>
+
+                <div class="map">
+                    <div id="map" class="shadow-Box centered"></div>
+                </div>
+
+                <div class="shadow-Box">
+                    <h2 class="spaced">Need a place to stay?</h2>
+                    <div class="centered">
+                        <a href="https://shorturl.at/ABQUW"><img src="/Photos/Icons/home.png" class="icon"></a>
+                    </div>
+
+                    <h3>Click the house to find the perfect place to say!</h3>
+
+                </div> 
+
+                
+            </div>
+
+            <script>
+                    // Initialize and add the map
+                    function initMap() {
+                      // The location of venue
+                      var venue = {lat: 48.897781, lng: -122.1539026};
+                      // The map, centered at venue
+                      var map = new google.maps.Map(
+                          document.getElementById('map'), {zoom: 10, center: venue});
+                      // The marker, positioned at venue
+                      var marker = new google.maps.Marker({position: venue, map: map});
+                    }
+                        </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjiVEN5y2Y1R7D9njIfe6Vxy4y7lLuNGY&callback=initMap">
+            </script>
+        </div>
+    </body>
+</html>
