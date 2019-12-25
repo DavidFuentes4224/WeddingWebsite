@@ -1,0 +1,163 @@
+/* Tablets phones */
+@media only screen and (max-width: 1200px) {
+    .main-page{
+        max-width: 80%;
+        margin:auto;
+        width: 80%;
+    }
+
+    ul li a {
+        display: block;
+        color: rgb(122,128,125);
+        text-align: center;
+        padding: 0px 15px;
+        border-bottom : 4px solid #ffffff00;
+        border-radius: 5px;
+        font-size: 25px;
+        transition: border-bottom 0.25s, color 0.25s;
+        text-decoration: none;
+        letter-spacing: 2px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    .date {
+        font-size: 32px;
+    }
+
+    .more-info-link {
+        font-size: 32px;
+    }
+
+}
+
+/* Big phones */
+@media only screen and (max-width: 950px) {
+    .main-page{
+        max-width: 100%;
+        margin:auto;
+        width: 100%;
+    }
+
+    .flex-grid{
+        display: block;
+        padding: 10px;
+    }
+
+    .col{
+        width: 75%;
+        margin:auto;
+    }
+
+    .divider-Image{
+        height: 150px;
+    }
+    
+}
+
+/* Small phones */
+@media only screen and (max-width: 650px) {
+    .mobile {
+        display: block;
+    }
+
+    .icon{
+        width: 128px;
+    }
+
+    .spaced{
+        letter-spacing: 0px;
+        font-size: 32px;
+    }
+
+    .date {
+        font-size: 32px;
+        letter-spacing: 2px;
+        border-bottom: 2px solid rgb(122,128,125);
+    }
+
+    .more-info-link {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .divider-line-long{
+        width: 100%;
+        border-bottom: 2px solid rgb(122,128,125);
+    }
+
+    .nav-bar{
+        margin-bottom: 75px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    li {
+        float:left;
+        width: 100%;
+        font-family: 'Lora', serif;
+    }
+
+    ul li a {
+        display: block;
+        color: rgb(122,128,125);
+        text-align: left;
+        padding: 0px 15px;
+        border-bottom : 4px solid #383838;
+        border-radius: 5px;
+        font-size: 24px;
+        transition: border-bottom 0.25s, color 0.25s;
+        text-decoration: none;
+        letter-spacing: 10px;
+    }
+
+    .flex-grid{
+        display: block;
+        padding: 10px;
+    }
+
+    .col{
+        width: 100%;
+    }
+}
+
+/* Small phones */
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 26px;
+        font-weight: 400;
+        color: rgb(122,128,125);
+        letter-spacing: 5px;
+        text-align: center;
+        font-family: 'Lora';
+        margin: 10px;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .date{
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .shadow-Box{
+        box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+        padding: 3px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .content{
+        padding: 0px;
+    }
+}

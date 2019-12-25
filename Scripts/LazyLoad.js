@@ -5,7 +5,11 @@ function preloadImage(img) {
   if(!src)
     return;
   
-    img.src = src;
+  var rotation = (Math.random() * 5) - 2;
+  if(img.className.includes("polaroidz")){
+    img.style.transform = 'rotate(' + rotation + 'deg)';
+  }
+  img.src = src;
 }
 
 const imgOptions = {

@@ -33,7 +33,7 @@ ul li a {
     padding: 0px 15px;
     border-bottom : 4px solid #ffffff00;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 26px;
     transition: border-bottom 0.25s, color 0.25s;
     text-decoration: none;
     letter-spacing: 5px;
@@ -45,13 +45,17 @@ ul li a:hover {
 }
 
 p {
-    font-size: 17px;
+    font-size: 25px;
     letter-spacing: normal;
     line-height: 1.6;
     color: rgb(122,128,125);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-h1 {
+h1,
+.date {
     font-size: 34px;
     font-weight: 400;
     color: rgb(122,128,125);
@@ -59,6 +63,10 @@ h1 {
     text-align: center;
     font-family: 'Lora';
     margin: 10px;
+}
+
+.date{
+    letter-spacing: 10px;
 }
 
 h2 {
@@ -120,6 +128,10 @@ h4 {
     padding: 10px;
 }
 
+.more-info-link{
+    margin-top: 25px;
+}
+
 .link-info {
     color:rgb(122,128,125);
     border-bottom: 2px solid rgba(122,128,125,0);;
@@ -133,12 +145,12 @@ h4 {
 }
 
 .banner{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
 .index{
-    margin-top: 200px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
@@ -170,8 +182,14 @@ h4 {
     border-bottom: 2px solid rgb(122,128,125);
 }
 
+.divider-line-short{
+    width: 66%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgb(122,128,125);
+}
+
 .content{
-    background-color: white;
     border-radius: 5px;
     padding: 20px;
     max-width: 750px;
@@ -199,6 +217,27 @@ h4 {
     width: 32px;
 }
 
-.registry-item{
-    width: 50%
+.polaroid{
+    width: 100%;
+}
+
+.flex-grid{
+    display: flex;
+    justify-content: space-between;
+    margin:5px;
+}
+
+.col{
+    flex: 1;
+    width: 30%;
+    margin: 10px;
+}
+
+.mobile{
+    display: none;
+}
+
+.rsvp{
+    width:100%;
+    height: 100%;
 }
