@@ -259,3 +259,11 @@ h4 {
 .contact-detail{
     font-weight: 400;
 }
+
+.annoucement{
+    font-size: 26px;
+    margin: 10, 0;
+    color: #fffffa;
+    vertical-align: middle;
+    background-color: orangered;
+}
