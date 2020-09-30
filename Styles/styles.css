@@ -267,3 +267,7 @@ h4 {
     vertical-align: middle;
     background-color: orangered;
 }
+
+.smallMap{
+    display:none;
+}

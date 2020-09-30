@@ -70,6 +70,25 @@
     
 }
 
+@media only screen and (max-width: 800px) {
+    .smallMap{
+        display: block;
+        color: rgb(122,128,125);
+        text-align: center;
+        padding: 0px 15px;
+        border-bottom : 4px solid #ffffff00;
+        border-radius: 5px;
+        font-size: 18px;
+        transition: border-bottom 0.25s, color 0.25s;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }
+
+    .mapBox{
+        display:none;
+    }
+}
+
 /* Small phones */
 @media only screen and (max-width: 650px) {
     .mobile {
