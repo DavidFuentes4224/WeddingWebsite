@@ -24,6 +24,15 @@ li {
     width: 16.66%;
     font-family: 'Lora', serif;
 }
+h2 a {
+    display: block;
+    color: rgb(122,128,125);
+    text-align: center;
+    padding: 0px 15px;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
 
 ul li a {
     display: block;
