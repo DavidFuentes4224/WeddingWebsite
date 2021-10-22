@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import React, { useState } from 'react';
-import { Header } from './sections/header';
 import { Home } from './pages/home';
-import { Photos } from './pages/photos';
+import  {Photos}  from './pages/photos';
+import {Video} from './pages/video';
 import {
   BrowserRouter,
   Switch,
@@ -16,16 +15,12 @@ import './styles/queries.css'
 
 function App() {
   const [tab, setTab] = useState('home');
+
   document.title = "Fuentes Fiesta";
-  const titleStyle = {
-    float: 'left',
-    fontSize: '32px',
-    padding: '0px 5%',
-    color: 'azure'
-  }
   function changeTab(tab) {
     setTab(tab);
   }
+
   return (
     <>
       <BrowserRouter>
@@ -48,7 +43,7 @@ function App() {
             <Photos />
           </Route>
           <Route path="/video">
-            <Home />
+            <Video />
           </Route>
           <Route path="/">
             <Home />
@@ -58,5 +53,4 @@ function App() {
     </>
   );
 }
-
 export default App;

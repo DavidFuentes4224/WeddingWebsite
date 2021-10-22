@@ -6,6 +6,10 @@
         width: 80%;
     }
 
+    ul{
+        width: 75%;
+    }
+
     ul li a {
         display: block;
         color: rgb(122,128,125);
@@ -62,7 +66,7 @@
         padding: 0px 15px;
         border-bottom : 4px solid #ffffff00;
         border-radius: 5px;
-        font-size: 18px;
+        font-size: 22px;
         transition: border-bottom 0.25s, color 0.25s;
         text-decoration: none;
         letter-spacing: 1px;

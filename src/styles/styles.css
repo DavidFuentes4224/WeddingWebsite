@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-position-x: center;
     background-attachment: fixed;
-    background-color: #fffffa;
+    background-color: #FFFEED;;
 }
 
 .italics {
@@ -17,11 +17,13 @@ ul{
     list-style-type: none;
     padding:0;
     overflow: hidden;
+    width: 50%;
+    margin: auto;
 }
 
 li {
     float:left;
-    width: 16.66%;
+    width: 33.33%;
     font-family: 'Lora', serif;
 }
 h2 a {

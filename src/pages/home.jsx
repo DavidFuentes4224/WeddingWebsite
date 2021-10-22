@@ -3,16 +3,24 @@ import 'react-image-gallery/styles/css/image-gallery.css'
 
 const images = [
     {
-        original: 'https://picsum.photos/id/1018/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1018/250/150/',
+        original: 'https://ik.imagekit.io/magicman0007/IMG_3719_Ek_I9qXAY.jpg?tr=w-2400',
+        thumbnail: 'https://ik.imagekit.io/magicman0007/IMG_3719_Ek_I9qXAY.jpg?tr=w-400',
     },
     {
-        original: 'https://picsum.photos/id/1015/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        original: 'https://ik.imagekit.io/magicman0007/IMG_5087_uUdNBke_mG.jpg?tr=w-2400',
+        thumbnail: 'https://ik.imagekit.io/magicman0007/IMG_5087_uUdNBke_mG.jpg?tr=w-600',
     },
     {
-        original: 'https://picsum.photos/id/1019/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        original: 'https://ik.imagekit.io/magicman0007/IMG_5022_fKIlcgfa2.jpg?tr=w-2400',
+        thumbnail: 'https://ik.imagekit.io/magicman0007/IMG_5022_fKIlcgfa2.jpg?tr=w-600',
+    },
+    {
+        original: 'https://ik.imagekit.io/magicman0007/IMG_4584_LgRiFyTFw.jpg?tr=2400',
+        thumbnail: 'https://ik.imagekit.io/magicman0007/IMG_4584_LgRiFyTFw.jpg?tr=w-600',
+    },
+    {
+        original: 'https://ik.imagekit.io/magicman0007/IMG_3775_jyT8NbxK-.jpg?tr=w-2400',
+        thumbnail: 'https://ik.imagekit.io/magicman0007/IMG_3775_jyT8NbxK-.jpg?tr=w-600',
     },
 ];
 
@@ -20,10 +28,10 @@ export const Home = () => {
     return (
         <>
             <div className='main-page'>
-            <ImageGallery items={images} />
+            <ImageGallery items={images} autoPlay={true} />
 
                 <div className="centered" style={{ width: '80%' }}>
-                    <img className="divider-image" src="https://ik.imagekit.io/magicman0007/flower_nrSJhkrDF.png?tr=w-255,h-350" />
+                    <img className="divider-image" src="https://ik.imagekit.io/magicman0007/flower_nrSJhkrDF.png?tr=w-255,h-350" alt={"flower"} />
                 </div>
                 <h1 style={{ letterspacing: '10px' }}>OUR STORY</h1>
                 <div className="divider-line-short centered"></div>
