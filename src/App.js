@@ -17,6 +17,7 @@ function App() {
   const [tab, setTab] = useState('home');
 
   document.title = "Fuentes Fiesta";
+  
   function changeTab(tab) {
     setTab(tab);
   }
